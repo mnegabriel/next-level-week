@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/bin/node /c/Program Files (x86)/Yarn/bin/yarn.js init
+
+PATH: 
+  /c/Users/gabri/.zinit/polaris/sbin:/c/Users/gabri/.zinit/polaris/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/c/Python27/:/c/Python27/Scripts:/c/Program Files (x86)/Intel/iCLS Client/:/c/Program Files/Intel/iCLS Client/:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0/:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/Program Files/Intel/WiFi/bin/:/c/Program Files/Common Files/Intel/WirelessCommon/:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/c/Program Files/Inkscape/bin:/c/Program Files/dotnet/:/c/ProgramData/chocolatey/bin:/c/Program Files/nodejs/:/c/Program Files (x86)/Yarn/bin/:/c/Program Files/Java/jdk1.8.0_211/bin:/c/Android/Sdk:/c/Android/Sdk:/c/Android/Sdk:/c/Android/Sdk:/c/Users/gabri/AppData/Local/Microsoft/WindowsApps:/c/Users/gabri/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/gabri/AppData/Local/GitHubDesktop/bin:/c/Users/gabri/AppData/Roaming/npm:/c/Users/gabri/AppData/Local/Yarn/bin:/c/Android/Sdk/emulator:/c/Android/Sdk/tools:/c/Android/Sdk/tools/bin:/c/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.19.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/c/Program Files (x86)/Yarn/lib/cli.js:137008:13)
+      at Interface.emit (events.js:198:13)
+      at Interface._ttyWrite (readline.js:801:16)
+      at ReadStream.onkeypress (readline.js:184:10)
+      at ReadStream.emit (events.js:198:13)
+      at emitKeys (internal/readline.js:424:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1073:36)
+      at ReadStream.emit (events.js:198:13)
+      at addChunk (_stream_readable.js:288:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
